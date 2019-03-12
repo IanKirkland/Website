@@ -1,0 +1,114 @@
+
+body, html{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #6e0012 0%, #6e0012 100%);
+}
+
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    background-image: linear-gradient(to top, #6e0012 0%, #6e0012 100%);
+    color: white;
+    padding: 64px;
+    
+}
+.header a {
+    text-decoration: none;
+    color:white;
+    
+}
+.header a:hover {
+    color:gray;
+}
+
+.content {
+    display:flex;
+}
+
+.content2 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#first-paragraph {
+    color:darkblue;
+}
+#second-paragraph {
+    color:darkblue;
+}
+.footer {
+    color:white;
+}
+
+.contact-content {
+    background:#A2A2A2;
+
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10%;
+    box-shadow: 6px 4px 4px black;
+    
+    
+}
+
+.contact-content input[type="submit"] {
+    color:white;
+    background-color:#6e0012;
+    padding:16px;
+    border: none;
+}
+
+.contact-content input[type="submit"]:hover{
+    opacity: .0;
+}
+
+.card {
+    color:darkblue;
+    padding: 32px 32px;
+    background-image: linear-gradient(to top,#C0C0C0 0%,#C0C0C0 100%);
+
+    margin: 50px 128px;
+    box-shadow: 6px 4px 4px black;
+    
+}
+.footer a {
+    color:cornflowerblue;
+    font-size:40px;
+    text-decoration: none;
+    padding: 20px;
+}
+.footer a:hover {
+    opacity: .7;
+}
+.footer a:active {
+    opacity: .7;
+}
+
+
+.footer a:visited {
+    color: darkblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        display: inline;
+        background: red;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    img {
+        width:1600px;
+    }
+}
