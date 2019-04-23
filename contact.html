@@ -11,9 +11,13 @@
 <body>
     <div class="header">
         <h1>TBD Alpaca Store Name</h1>
-        <a href="./Index.html">
-        Home
+        <a href='./Index.html'>Home</a>
+
+        <a href="./contact.html">Contact</a>
         </a> 
+        <a href="./shop.html">
+            Shop
+        </a>
     </div>
     <div class="contact-content">
         <form>
@@ -24,10 +28,16 @@
             <p></p>
             <input type="text" placeholder="enter message">
             <p></p>
-            <input type="submit" valve="submit">
+            <input type="submit" valve="submit" onclick=submitMessage()>
         </form>
     </div>
-    
+    <script>
+        function submitMessage() {
+            window.alert("Go Away");
+        }
+
+        
+    </script>
 
    
     <div class="footer">

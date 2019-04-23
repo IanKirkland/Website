@@ -4,7 +4,10 @@ body, html{
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: linear-gradient(to top, #6e0012 0%, #6e0012 100%);
+    background-color: rgb(45,61,51);
+    background: linear-gradient(0deg, rgba(45,61,51,1) 0%, rgba(79,110,91,1) 56%);
+    background-size: cover;
+    
 }
 
 
@@ -16,9 +19,9 @@ h1 {
 }
 
 .header{
-    background-image: linear-gradient(to top, #6e0012 0%, #6e0012 100%);
+    
     color: white;
-    padding: 64px;
+    padding: 32px;
     
 }
 .header a {
@@ -41,10 +44,10 @@ h1 {
 }
 
 #first-paragraph {
-    color:darkblue;
+    color:black;
 }
 #second-paragraph {
-    color:darkblue;
+    color:black;
 }
 .footer {
     color:white;
@@ -63,27 +66,27 @@ h1 {
 }
 
 .contact-content input[type="submit"] {
-    color:white;
-    background-color:#6e0012;
+    color:black;
+    background-color:white;
     padding:16px;
     border: none;
 }
 
 .contact-content input[type="submit"]:hover{
-    opacity: .0;
+    opacity: .4;
 }
 
 .card {
-    color:darkblue;
+    color:black;
     padding: 32px 32px;
-    background-image: linear-gradient(to top,#C0C0C0 0%,#C0C0C0 100%);
+    background-image: linear-gradient(to top, white 0%, white 100%);
 
     margin: 50px 128px;
     box-shadow: 6px 4px 4px black;
     
 }
 .footer a {
-    color:cornflowerblue;
+    color:white;
     font-size:40px;
     text-decoration: none;
     padding: 20px;
@@ -97,7 +100,7 @@ h1 {
 
 
 .footer a:visited {
-    color: darkblue;
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {
