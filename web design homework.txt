@@ -7,7 +7,7 @@ Null, Boolean, string, undefined, number, and object.
 
 
 2. What is the syntax for declaring a variable, and what are the three available names for declaration?
-var. Control variables, independent variables, and dependent variables.
+var. 
 
 
 3. What is the function of console.log()?
