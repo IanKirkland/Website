@@ -20,7 +20,11 @@
         </a>
     </div>
     <div class="contact-content">
-        <form name="contact" method="POST" data-netlify="true" netlify>
+        <form name="contact" method="POST" data-netlify="true" netlify="bot-field" netlify>
+            <p class="hidden">
+                <label>For bot eyes only: <input name="bot-field"/></label>
+
+            </p>
             <p>
               <label>Your Name: <p></p><input type="text" name="name" /></label>
             </p>
@@ -36,7 +40,7 @@
             </p>
           </form>
     </div>
-
+    
 
    
     <div class="footer">

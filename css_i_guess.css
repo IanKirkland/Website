@@ -115,3 +115,7 @@ h1 {
         width:1600px;
     }
 }
+
+.hidden {
+    visibility: hidden;
+}
