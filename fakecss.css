@@ -1,0 +1,94 @@
+body, html{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background:lightgray;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.header {
+    background:rgb(172, 59, 59);
+    padding: 32px;
+    margin:0px;
+    color:white;
+    text-decoration: none;
+}
+.header a {
+    text-decoration: none;
+    color:white;
+    margin:32px
+    
+}
+.header a:hover {
+    color:black;
+}
+.content {
+    padding: 32px;
+    margin:0px;
+}
+
+.card {
+    color:black;
+    padding: 32px 32px;
+    background: lightgray;
+    
+    margin: 50px 128px;
+        
+        
+}
+
+.footer {
+    text-align: center;
+}
+.footer a {
+    color:cornflowerblue;
+    font-size:40px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.contactyay {
+    color:black;
+    padding: 32px 32px;
+    background: lightgray;
+    box-shadow: 6px px 4px cornflowerblue;
+    margin: 50px 128px;
+}
+body {
+   
+    
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ 
+  
+  .hidden {
+    visibility: hidden;
+  }
+  @media screen and (max-width: 750px) {
+    form {
+      margin: 0 2rem;
+    }
+  }
+  textarea {
+      width: 140px;
+      height: 140px;
+  }
